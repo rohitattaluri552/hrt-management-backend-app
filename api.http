@@ -1,0 +1,17 @@
+POST http://localhost:3000/v1/register
+Content-Type: application/json
+
+{
+  "username": "rohitddhadda@adsfam.com",
+  "password": "123456"
+}
+
+###
+http://localhost:3000/
+
+
+###
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{}
